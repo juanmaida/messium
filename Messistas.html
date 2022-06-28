@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messium</title>
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <script src="https://kit.fontawesome.com/1a7f54b804.js" crossorigin="anonymous"></script>
+
+</head>
+<body class="messistas">
+    <header class="header">
+        <div class="logo-header" >
+            <a href="Index.html" name="inicio"><img src="img/logo.png" alt=""></a>
+        </div>
+        <div class="nav-menu">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="menu-icon"><img src="img/menu.svg" alt="icono-hamburguesa" id="icono"></i>
+            </label>
+            <ul>
+                <li><A href="Index.html" >Home</A></li>
+                <li><A href="Seleccion.html" >Argentina</A></li>
+                <li><A href="Barcelona.html" >Barcelona</A></li>
+                <li><A href="Galeria.html" >Galeria</A></li>
+                <li><A href="Messistas.html" >Messistas</A></li>
+            </ul>
+        </div>
+    </header>
+    <h1 class="top">
+        BIENVENIDO MESSISTA
+    </h1>
+    <p>Bienvenido al museo virtual de Lionel Andres Messi Cuccittini. Somos millones de messistas alrededor del mundo y te damos la bienvenida. ¿vos también sos messista?</p>
+    <br>
+    <h1 class="letra_roja">Contanos:</h1>
+    <div id="encuesta">
+        <form action="show_data.html" target="_blank">
+            <fieldset>
+                <legend>Alabado sea L10NEL</legend>
+                <br>
+                <div id="encuesta-2">
+
+                    <label for="fname">Nombres:</label>
+                    <input type="text" id="fname" name="fname"><br><br>
+                    <label for="apodo">Apodo:</label>
+                    <input type="text" id="apodo" name="apodo"><br><br>
+                    <label for="lname">Apellido:</label>
+                    <input type="text" id="lname" name="lname"><br><br>
+                    <label for="mail">Mail:</label>
+                    <input type="email" id="mail" name="mail"><br><br>
+                    <label for="birthday">Fecha de Nacimiento:</label>
+                    <input type="date" id="birthday" name="birthday"><br><br>
+                    <label for="fquest">1. ¿Porque sos fanático de Messi? 
+                    <br>
+                    <br>
+                    <textarea name="fquest" rows="5" cols="40"></textarea>
+                    <br>
+                    <br>
+                    <label for="squest">2. ¿Cuál es tu recuerdo favorito sobre lio? 
+                    <br>
+                    <br>
+                    <textarea name="squest" rows="5" cols="40"></textarea>
+                    <br>
+                    <br>
+                    <label for="tquest">3. ¿Que le dirías si lo tuvieras en frente? 
+                    <br>
+                    <br>
+                    <textarea name="tquest" rows="5" cols="40"></textarea>
+                    <br>
+                    <br>
+                    <label name="uquest">4. ¿Quien es su hijo favorito?
+                    </label>
+                    <div><input type="radio" name="hijofav" value="mateo">Mateo
+                    </div>
+                    <div><input type="radio" name="hijofav" value="thiago">Thiago
+                    </div>
+                    <div><input type="radio" name="hijofav" value="ciro">Ciro
+                    </div>
+                    <br>
+                    <br>
+                    <label name="vquest">5. ¿Cuáles (ex)compañeros de Messi explotaron junto a él?
+                    </label>
+                    <div><input type="checkbox" name="Neymar" value="1">Neymar
+                    </div>
+                    <div><input type="checkbox" name="Suarez" value="1">Suarez
+                    </div>
+                    <div><input type="checkbox" name="Villa" value="1">Villa
+                    </div>
+                    <div><input type="checkbox" name="Henry" value="1">Henry
+                    </div>
+                    <div><input type="checkbox" name="Mbappe" value="1">Mbappe
+                    </div>
+                    <div><input type="checkbox" name="Iniesta" value="1">Iniesta
+                    </div>
+                    <br>
+                    <label name="wquest">6. ¿Cuál fue el mejor Balon D'or?
+                    </label>
+                
+                    <select name="Balon de oro">
+                        <option value="2009">2009</option>
+                        <option value="2010">2010</option>
+                        <option value="2011">2011</option>
+                        <option value="2012">2012</option>
+                        <option value="2015">2015</option>
+                        <option value="2019">2019</option>
+                        <option value="2021">2021</option>
+                    </select>
+                    <br> <br>
+                    <br>
+                    <input type="reset" value="Limpiar Formulario">
+                    <input type="submit" value="Enviar Formulario">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    <br><br><br><br>
+    <a href="#inicio"><h4>Volver arriba</h4></a>
+    <footer>
+        <div>
+            Seguinos:
+            <table class="redes">
+                <tr>
+                    <td><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a></td>
+                    <td><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></td>
+                    <td><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></td>
+                    <td><a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></td>
+                </tr>
+            </table>
+        </div>
+    </footer>
+</body>
+</html>    
